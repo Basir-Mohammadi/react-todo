@@ -7,17 +7,17 @@ class TodoContainer extends React.Component {
   state = {
     todos: [
       {
-        id: uuidv4,
+        id: uuidv4(),
         title: "Setup development environment",
         completed: true
       },
       {
-        id: uuidv4,
+        id: uuidv4(),
         title: "Develop website and add content",
         completed: false
       },
       {
-        id: uuidv4,
+        id: uuidv4(),
         title: "Deploy to live server",
         completed: false
       }
@@ -52,7 +52,7 @@ class TodoContainer extends React.Component {
 
   addTodoItem = title => {
     const newTodo = {
-      id: uuidv4,
+      id: uuidv4(),
       title: title,
       completed: false
     };
