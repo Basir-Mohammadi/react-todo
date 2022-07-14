@@ -1,3 +1,8 @@
+/* eslint-disable no-param-reassign */
+/* eslint-disable react/state-in-constructor */
+/* eslint-disable react/no-access-state-in-setstate */
+/* eslint-disable react/destructuring-assignment */
+/* eslint-disable react/sort-comp */
 import React from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import TodosList from './TodosList';
