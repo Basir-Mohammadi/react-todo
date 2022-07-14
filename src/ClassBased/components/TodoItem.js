@@ -1,3 +1,8 @@
+/* eslint-disable react/button-has-type */
+/* eslint-disable react/prop-types */
+/* eslint-disable react/destructuring-assignment */
+/* eslint-disable react/sort-comp */
+/* eslint-disable react/state-in-constructor */
 import React from 'react';
 import styles from './TodoItem.module.css';
 
